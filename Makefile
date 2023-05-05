@@ -1,4 +1,4 @@
-current_branch = "2.3.0"
+current_branch = "2.4.0"
 build:
 	docker build -t lingoxp/hive-metastore-postgresql:$(current_branch) ./
 push:
